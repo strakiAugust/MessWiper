@@ -1,0 +1,16 @@
+<garbage-list>
+    <app>
+        <icon>wandoujia</icon>
+        <name>豌豆荚</name>
+        <info>多余日志</info>
+        <dir>wandoujia/cache</dir>
+        <should-del-default>true</should-del-default>
+    </app>
+    <app>
+        <icon>wandoujia</icon>
+        <name>豌豆荚</name>
+        <info>图片缓存</info>
+        <dir>wandoujia/cache</dir>
+        <should-del-default>true</should-del-default>
+    </app>
+</garbage-list>

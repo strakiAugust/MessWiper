@@ -50,5 +50,6 @@ public class GarbageListActivity extends AppCompatActivity {
                 garbageFab.hide();
             }
         });
+
     }
 }
