@@ -6,6 +6,7 @@ import android.support.v7.app.ActionBar;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
+import android.support.v7.widget.Toolbar;
 import butterknife.Bind;
 import butterknife.ButterKnife;
 import com.melnykov.fab.FloatingActionButton;
@@ -15,6 +16,9 @@ import com.tyzrpvx.messwiper.views.adapters.GarbageListAdapter;
 import com.tyzrpvx.messwiper.views.models.GarbageItem;
 
 public class GarbageListActivity extends AppCompatActivity {
+
+    @Bind(R.id.toolbar_garbage_list)
+    Toolbar garbagelistToolbar;
 
     @Bind(R.id.recyclerview_garbagelist)
     RecyclerView garbagelistView;
@@ -28,6 +32,7 @@ public class GarbageListActivity extends AppCompatActivity {
         setContentView(R.layout.activity_garbage_list);
         ButterKnife.bind(this);
         GarbageListAdapter adapter = new GarbageListAdapter(GarbageItem.createTstList());
+        setSupportActionBar(garbagelistToolbar);
         ActionBar supportActionBar = getSupportActionBar();
         if (supportActionBar != null) {
             supportActionBar.setTitle(R.string.garbage_list_actionbar_title);

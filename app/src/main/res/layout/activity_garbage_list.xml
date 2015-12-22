@@ -6,7 +6,7 @@
 
 
     <android.support.v7.widget.Toolbar
-            android:id="@+id/toolbar_startup"
+            android:id="@+id/toolbar_garbage_list"
             android:layout_width="match_parent"
             android:layout_height="?attr/actionBarSize"
             android:elevation="4dp">
@@ -31,11 +31,11 @@
                 android:id="@+id/fab_garbage_list"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:transitionName="@string/trans.startup"
                 android:layout_gravity="bottom|right"
                 android:layout_margin="16dp"
                 android:src="@drawable/ic_add_white_24dp"
-                fab:fab_colorNormal="@color/primary"
-                fab:fab_colorPressed="@color/primary_pressed"
-                fab:fab_colorRipple="@color/ripple"/>
+                fab:fab_colorNormal="@color/material_dark"
+                fab:fab_colorPressed="@color/red"/>
     </android.support.design.widget.CoordinatorLayout>
 </LinearLayout>

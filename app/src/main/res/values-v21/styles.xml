@@ -15,4 +15,9 @@
         <item name="android:navigationBarColor">@color/abc_input_method_navigation_guard</item>
     </style>
 
+    <style name="WithTransTheme" parent="NoActionBarTheme">
+        <item name="android:windowContentTransitions">true</item>
+
+    </style>
+
 </resources>
