@@ -1,5 +1,6 @@
 package com.tyzrpvx.messwiper.views.activitys;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v7.app.AppCompatActivity;
@@ -31,6 +32,8 @@ public class StartupActivity extends AppCompatActivity {
     @OnClick(R.id.button_startup)
     public void wipe() {
         Log.d("`1", "StartupActivity.Class->wipe(): ");
+        Intent wipeIntent = new Intent(this, GarbageListActivity.class);
+        startActivity(wipeIntent);
     }
 
     @Override
