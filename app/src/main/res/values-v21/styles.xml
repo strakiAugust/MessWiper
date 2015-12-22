@@ -1,0 +1,18 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+    </style>
+    <style name="NoActionBarTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- drawer's style -->
+        <item name="windowActionBar">false</item>
+        <item name="android:textColor">@color/foreground_material_light</item>
+        <item name="android:textColorHighlight">@color/highlighted_text_material_light</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:colorPrimary">@color/material_deep_teal_500</item>
+        <item name="android:textColorPrimary">@color/foreground_material_light</item>
+        <item name="android:navigationBarColor">@color/abc_input_method_navigation_guard</item>
+    </style>
+
+</resources>

@@ -1,0 +1,7 @@
+package com.tyzrpvx.messwiper.views.activitys;
+
+import android.support.v7.app.AppCompatActivity;
+
+public class GarbageListActivity extends AppCompatActivity {
+
+}
