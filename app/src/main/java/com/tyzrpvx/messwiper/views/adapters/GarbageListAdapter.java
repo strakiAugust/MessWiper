@@ -11,7 +11,7 @@ import android.widget.TextView;
 import butterknife.Bind;
 import butterknife.ButterKnife;
 import com.tyzrpvx.messwiper.app.R;
-import com.tyzrpvx.messwiper.views.activitys.models.GarbageItem;
+import com.tyzrpvx.messwiper.views.models.GarbageItem;
 
 import java.util.List;
 

@@ -1,4 +1,4 @@
-package com.tyzrpvx.messwiper.views.activitys.models;
+package com.tyzrpvx.messwiper.views.models;
 
 import android.graphics.drawable.Drawable;
 
