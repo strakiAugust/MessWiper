@@ -13,4 +13,5 @@
         <dir>wandoujia/cache</dir>
         <should-del-default>true</should-del-default>
     </app>
+	
 </garbage-list>
